@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+    width: calc(100vw - 0.2px);
+    height: calc(100vh - 0.5px);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#restartButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
